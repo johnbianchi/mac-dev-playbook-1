@@ -6,7 +6,7 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/johnbianchi/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
 dotfiles_files:
@@ -20,15 +20,15 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
-  - chromedriver
-  - doxygen
+  #- chromedriver
+  #- doxygen
   - gettext
-  - gifsicle
+  #- gifsicle
   - git
   - go
   - gpg
   - hub
-  - httpie
+  #- httpie
   - iperf
   - libevent
   - sqlite
@@ -47,7 +47,7 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
-  - homebrew/php
+  #- homebrew/php
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -57,14 +57,14 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - handbrake
-  - licecap
-  - limechat
+  #- licecap
+  #- limechat
   - macvim
   - nvalt
   - sequel-pro
-  - skitch
+  #- skitch
   - slack
-  - sublime-text
+  #- sublime-text
   - transmit
   - vagrant
   - virtualbox
