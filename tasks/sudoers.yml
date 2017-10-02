@@ -15,7 +15,7 @@
 - name: Copy sudoers configuration into place.
   template:
     src: templates/sudoers.j2
-    dest: /etc/sudoers
+    dest: /etc/sudoers.d/jbianchi
     mode: 0440
     validate: 'visudo -cf %s'
   become: yes
